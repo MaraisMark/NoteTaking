@@ -1,0 +1,45 @@
+.header {
+    margin: 2em 0;
+}
+
+.note-section > div {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.note-section textarea {
+    width: 100%;
+}
+
+.note {
+    background: #ffffcc;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px #efefef;
+    display: flex;
+}
+
+.note .input {
+    flex: 1;
+}
+
+.note .input textarea {
+    background: #ffffcc;
+    border: solid 1px #ffffcc;
+}
+
+.note .input:hover textarea {
+    border: solid 1px #747435;
+}
+
+.saving {
+    font-size: 12px;
+    display: none;
+}
+
+.remove {
+    float: right;
+    padding: 0 0.375rem;
+    background: #990000;
+    color: #fff;
+}

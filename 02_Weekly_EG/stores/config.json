@@ -1,0 +1,13 @@
+{
+    "production": {
+      "port": 3000,
+      "notes": "./stores/notes.json",
+      "user": "./stores/users.json"
+    },
+    "development": {
+      "port": 3000,
+      "notes": "./stores/notes.json",
+      "user": "./stores/user.json"
+    }
+  }
+  
